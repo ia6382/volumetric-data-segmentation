@@ -6,15 +6,15 @@ MATLAB implementation of the Snake [1] active contour model. We used it to autom
 Input data *fib1321.seg.nrrd* is a set of slices of volumetric data - images that contain mitochondria. The user selects the centre of the structure that they want to segment. 
 A parametric contour's nodes are generated and affected by a defined inner and outer force so they iteratively conform to the object's shape. 
 
-![conformingNodes](conformingNodes.png)
+![conformingNodes](docs/conformingNodes.png)
 
 Afterwards, a new centre is calculated for the next slice and the process repeats itself.
 
-![segmentationSlice](segmentationSlice.png)
+![segmentationSlice](docs/segmentationSlice.png)
 
 In the end, the program outputs a file containing contour nodes for every slice - a point cloud of a segmented structure. Below is a segmented mitochondrion with 50 nodes per slice.
 
-![50nodes](50nodes.png)
+![50nodes](docs/50nodes.png)
 
 Several variations of the model were also developed [2, 3]. File porocilo.pdf contains a more detailed report in the Slovenian language. 
 
