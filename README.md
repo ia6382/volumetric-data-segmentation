@@ -12,7 +12,7 @@ In the end, the program outputs a file containing contour nodes for every slice 
 
 Several variations of the model were also developed [2, 3]. File porocilo.pdf contains a more detailed report in the Slovenian language. 
 
-Personal assignment project for the Advanced Computer Graphics course at the University of Ljubljana, Faculty of Computer and Information Science.
+Personal assignment project for the Advanced Computer Graphics course at the University of Ljubljana, Faculty of Computer and Information Science. The course covered the following main topics: 3D representations (volumetric models, solid models, point clouds, procedural generation), physically based rendering, animation.
 
 ## Tips
 * Parameters of the model can be set with the controlling variables.
